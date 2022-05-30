@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da memória</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <main class="memory-game">
+      <div class="card" data-card="astra">
+        <img
+          src="./assets/images/Astra.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="breach">
+        <img
+          src="./assets/images/Breach.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="brimstone">
+        <img
+          src="./assets/images/Brimstone.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="chamber">
+        <img
+          src="./assets/images/Chamber.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="cypher">
+        <img
+          src="./assets/images/Cypher.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="fade">
+        <img
+          src="./assets/images/Fade.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="jett">
+        <img
+          src="./assets/images/Jett.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="kayo">
+        <img
+          src="./assets/images/KAYO.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="killjoy">
+        <img
+          src="./assets/images/KillJoy.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="neon">
+        <img
+          src="./assets/images/Neon.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="omen">
+        <img
+          src="./assets/images/Omen.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="phoenix">
+        <img
+          src="./assets/images/Phx.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="raze">
+        <img
+          src="./assets/images/Raze.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="reyna">
+        <img
+          src="./assets/images/Reyna.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="sage">
+        <img
+          src="./assets/images/sage.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="skye">
+        <img
+          src="./assets/images/Skye.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="sova">
+        <img
+          src="./assets/images/Sova.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="viper">
+        <img
+          src="./assets/images/Viper.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="yoru">
+        <img
+          src="./assets/images/Yoru.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="astra">
+        <img
+          src="./assets/images/Astra.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="breach">
+        <img
+          src="./assets/images/Breach.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="brimstone">
+        <img
+          src="./assets/images/Brimstone.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="chamber">
+        <img
+          src="./assets/images/Chamber.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="cypher">
+        <img
+          src="./assets/images/Cypher.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="fade">
+        <img
+          src="./assets/images/Fade.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="jett">
+        <img
+          src="./assets/images/Jett.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="kayo">
+        <img
+          src="./assets/images/KAYO.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="killjoy">
+        <img
+          src="./assets/images/KillJoy.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="neon">
+        <img
+          src="./assets/images/Neon.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="omen">
+        <img
+          src="./assets/images/Omen.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="phoenix">
+        <img
+          src="./assets/images/Phx.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="raze">
+        <img
+          src="./assets/images/Raze.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="reyna">
+        <img
+          src="./assets/images/Reyna.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="sage">
+        <img
+          src="./assets/images/sage.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="skye">
+        <img
+          src="./assets/images/Skye.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="sova">
+        <img
+          src="./assets/images/Sova.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="viper">
+        <img
+          src="./assets/images/Viper.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+      <div class="card" data-card="yoru">
+        <img
+          src="./assets/images/Yoru.png"
+          alt="face da carta"
+          class="card-front"
+        />
+        <img
+          src="./assets/images/zverso-card.png"
+          alt="verso da carta"
+          class="card-back"
+        />
+      </div>
+    </main>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
