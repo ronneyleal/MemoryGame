@@ -52,7 +52,7 @@ function resetGame() {
 
 ;(function mixCards() {
   cards.forEach(card => {
-    let randomPosition = Math.floor(Math.random() * 38)
+    let randomPosition = Math.floor(Math.random() * 36)
     card.style.order = randomPosition
   })
 })()

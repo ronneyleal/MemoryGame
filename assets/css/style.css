@@ -10,6 +10,9 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+::-webkit-scrollbar {
+  display: none;
+}
 
 body {
   height: 100vh;
@@ -19,9 +22,17 @@ body {
   background-image: url('/assets/images/background1.png');
 }
 
+video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
 .memory-game{
   height: 95vh;
-  width: 90vw ;
+  width: 95vw ;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -71,14 +82,15 @@ transition: transform .9s;
 @media (max-width: 800px) {
   .memory-game{
     height: 98vh;
-    width: 98vw ;
+    width: 100vw ;
     perspective: 2000;
+    margin-top: 20px;
   }
   
   .card {
   height: calc(12% - 1px);
   width: calc(15% - 1px);
-  margin: 1px;
+  margin: 3px;
   }
   .card-front,
 .card-back {
@@ -88,9 +100,14 @@ transition: transform .9s;
   position: absolute;
   border-radius: 3px;
 }
-body {
-  background-position: auto;
-  background-size: cover;
-  background-image: url('/assets/images/backgroundv1.png');
+
 }
+@media (max-width: 1200px) {
+  
+  .card {
+  height: calc(15% - 1px);
+  width: calc(15% - 1px);
+  margin: 3px;
+  }
+
 }
